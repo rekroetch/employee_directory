@@ -1,4 +1,4 @@
-function Table(props) {
+function TableHead() {
     return (
         <table className="table table-striped">
         <thead>
@@ -9,16 +9,9 @@ function Table(props) {
             <th scope="col">Salary</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>{props.name}</td>
-            <td>{props.role}</td>
-            <td>{props.salary}</td>
-          </tr>
-        </tbody>
+        
       </table>
     );
   }
   
-  export default Table;
+export default TableHead;
