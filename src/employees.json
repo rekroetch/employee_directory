@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "Michael Scott",
+      "role": "Manager",
+      "salary": 80000
+    },
+    {
+      "id": 2,
+      "name": "Dwight Schrute",
+      "role": "Sales",
+      "salary": 70000
+    },
+    {
+      "id": 3,
+      "name": "Pam Beasley",
+      "role": "Reception",
+      "salary": 65000
+    },
+    {
+      "id": 4,
+      "name": "Jim Halpert",
+      "role": "Sales",
+      "salary": 70000
+    },
+    {
+      "id": 5,
+      "name": "Erin Hannon",
+      "role": "Sales",
+      "salary": 70000
+    },
+    {
+      "id": 6,
+      "name": "Kevin Malone",
+      "role": "Sales",
+      "salary": 70000
+    },
+    {
+      "id": 7,
+      "name": "Toby Flenderson",
+      "role": "Sales",
+      "salary": 70000
+    },
+    {
+      "id": 8,
+      "name": "Angela Martin",
+      "role": "Sales",
+      "salary": 70000
+    },
+    {
+      "id": 9,
+      "name": "Stanley Hudson",
+      "role": "Sales",
+      "salary": 70000
+    },
+    {
+      "id": 10,
+      "name": "Kelly Kapoor",
+      "role": "Sales",
+      "salary": 70000
+    }
+  ]
+  
