@@ -1,63 +1,93 @@
 [
     {
       "id": 1,
-      "name": "Michael Scott",
+      "name": "Rachel Kroetch",
       "role": "Manager",
-      "salary": 80000
+      "salary": 80000,
+      "phone": "(408)532-6725",
+      "email": "rkroetch8@gmail.com",
+      "dob": "02-10-98"
     },
     {
       "id": 2,
-      "name": "Dwight Schrute",
-      "role": "Sales",
-      "salary": 70000
+      "name": "Chris Langer",
+      "role": "Sales Director",
+      "salary": 75000,
+      "phone": "(408)531-1853",
+      "email": "chrislanger@gmail.com",
+      "dob": "04-10-99"
     },
     {
       "id": 3,
-      "name": "Pam Beasley",
-      "role": "Reception",
-      "salary": 65000
+      "name": "Madelyn Lloyd",
+      "role": "Marketing Director",
+      "salary": 75000,
+      "phone": "(408)270-7088",
+      "email": "lloydmadi@gmail.com",
+      "dob": "10-26-98"
     },
     {
       "id": 4,
-      "name": "Jim Halpert",
+      "name": "Joeseph McTiernan",
       "role": "Sales",
-      "salary": 70000
+      "salary": 70000,
+      "phone": "(408)646-9038",
+      "email": "jmctiernan@gmail.com",
+      "dob": "07-04-97"
     },
     {
       "id": 5,
-      "name": "Erin Hannon",
-      "role": "Sales",
-      "salary": 70000
+      "name": "Maya Washington",
+      "role": "Marketing",
+      "salary": 70000,
+      "phone": "(408)713-9498",
+      "email": "mayawashington@gmail.com",
+      "dob": "03-15-98"
     },
     {
       "id": 6,
-      "name": "Kevin Malone",
-      "role": "Sales",
-      "salary": 70000
+      "name": "Zach Babka",
+      "role": "Marketing",
+      "salary": 70000,
+      "phone": "(408)845-0876",
+      "email": "zachbabka14@gmail.com",
+      "dob": "08-14-99"
     },
     {
       "id": 7,
-      "name": "Toby Flenderson",
+      "name": "Anne van Besouw",
       "role": "Sales",
-      "salary": 70000
+      "salary": 70000,
+      "phone": "(408)760-1199",
+      "email": "annevb98@gmail.com",
+      "dob": "06-29-98"
     },
     {
       "id": 8,
-      "name": "Angela Martin",
+      "name": "Gregory Renteria",
       "role": "Sales",
-      "salary": 70000
+      "salary": 70000,
+      "phone": "(408)927-7741",
+      "email": "grenteria@gmail.com",
+      "dob": "11-01-96"
     },
     {
       "id": 9,
-      "name": "Stanley Hudson",
+      "name": "Casey Lloyd",
       "role": "Sales",
-      "salary": 70000
+      "salary": 70000,
+      "phone": "(408)568-2018",
+      "email": "cmlloyd2@gmail.com",
+      "dob": "10-26-98"
     },
     {
       "id": 10,
-      "name": "Kelly Kapoor",
-      "role": "Sales",
-      "salary": 70000
+      "name": "Brendan Ogburn",
+      "role": "Marketing",
+      "salary": 70000,
+      "phone": "(408)372-2604",
+      "email": "brendanogburn@gmail.com",
+      "dob": "05-18-98"
     }
   ]
   
