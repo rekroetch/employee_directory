@@ -6,7 +6,6 @@ import TableBody from './components/TableBody'
 import Search from './components/Search'
 import employees from "./employees.json";
 
-
 class App extends Component {
   // Setting this.state.employees to the employees json array
   state = {
@@ -31,9 +30,17 @@ class App extends Component {
   }
 
   reset = () => {
-    // refresh page
-    window.location.reload(false)
+    this.setState({ employees });
   };
+
+
+  clickedSort = (sortBy) => {
+    console.log(sortBy)
+    const newEmp = this.state.employees
+
+    newEmp.sort((a, b) => (a[sortBy] > b[sortBy]) ? 1 : -1)
+    this.setState({ employees: newEmp })
+  }
 
   // Map over this.state.employees and render a Table component for each employee object
   render() {
@@ -44,7 +51,7 @@ class App extends Component {
         handleInputChange={this.handleInputChange} 
         formSubmit={this.formSubmit}/>
         <table className="table container">
-          <TableHead />
+          <TableHead clickedSort={this.clickedSort}/>
           {this.state.employees.map(employee => (
             <TableBody
               id={employee.id}
