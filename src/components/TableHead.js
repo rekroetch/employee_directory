@@ -1,18 +1,15 @@
-function TableHead() {
+function TableHead(props) {
     return (
         <thead>
           <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Name</th>
-            <th scope="col">Role</th>
-            <th scope="col">Phone Number</th>
-            <th scope="col">Email</th>
-            <th scope="col">Birthday</th>
+            <th scope="col" onClick={() => {props.clickedSort("id")}}>ID <i className="fas fa-sort-down"></i></th>
+            <th scope="col" onClick={() => {props.clickedSort("name")}}>Name <i className="fas fa-sort-down"></i></th>
+            <th scope="col" onClick={() => {props.clickedSort("role")}}>Role <i className="fas fa-sort-down"></i></th>
+            <th scope="col" onClick={() => {props.clickedSort("phone")}}>Phone Number <i className="fas fa-sort-down"></i></th>
+            <th scope="col" onClick={() => {props.clickedSort("email")}}>Email <i className="fas fa-sort-down"></i></th>
+            <th scope="col" onClick={() => {props.clickedSort("birthday")}}>Birthday <i className="fas fa-sort-down"></i></th>
           </tr>
         </thead>
-      //   <table className="table table-striped">
-        
-      // </table>
     );
   }
   
